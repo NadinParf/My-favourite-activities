@@ -1,0 +1,13 @@
+.section-travelling {
+    padding: 60px;
+
+    &__paragraf {
+        @include pargf-margin;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .section-travelling {
+        padding: 30px;
+    }
+}

@@ -1,0 +1,11 @@
+.footer {
+     padding: 60px;
+     background-color: $bcg-color;
+
+}
+
+@media screen and (max-width: 500px) {
+    .footer {
+        padding: 30px;
+    }
+}

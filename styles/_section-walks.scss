@@ -1,0 +1,15 @@
+.section-walks {
+    padding: 60px;
+
+    background-color: $bcg-color;
+
+    &__paragraf {
+        @include pargf-margin;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .section-walks {
+        padding: 30px;
+    }
+}

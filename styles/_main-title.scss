@@ -1,0 +1,12 @@
+.main-title {
+    font-size: $big-font;
+    color: rgb(176, 62, 238);  
+}
+
+@media screen and (max-width: 400px) {
+    .main-title {
+        font-size: 1.6rem;   
+    }
+       
+}
+
